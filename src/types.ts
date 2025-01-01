@@ -1,4 +1,5 @@
 export type MiddlewareOptions = {
-  token: string;
+  secretKey: string;
   role?: string;
+  errorMessage: string;
 };

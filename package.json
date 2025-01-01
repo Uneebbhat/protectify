@@ -1,7 +1,7 @@
 {
   "name": "protectify",
   "description": "",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -13,10 +13,20 @@
     "express.js",
     "protected routes"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Uneebbhat/protectify.git"
+  },
   "author": "Uneeb Bhatti",
   "license": "MIT",
   "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/jsonwebtoken": "^9.0.7",
     "tsup": "^8.3.5",
     "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2"
   }
 }
